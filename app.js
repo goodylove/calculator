@@ -92,8 +92,11 @@ conDiv.addEventListener("click" , function (e){
                 result.textContent ="0"
             }
            
+            // secondOperand = result.textContent
+            // summary.textContent = firstOperand + operator + secondOperand
             if(action =="calculator"){
-                secondOperand = result.textContent
+                
+            secondOperand = result.textContent
                 summary.textContent = firstOperand + operator + secondOperand
     
                 
