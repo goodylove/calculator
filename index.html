@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+    
+</head>
+<body>
+    <div class="page-container">
+        <div class="overall">
+            <div class="calculator">
+                <div class="result-conatiner">
+                    <div class="summary"></div>
+                    <div class="result">0</div>
+                </div>
+                <div class="button-container">
+                    <button class="button operators  del"  value="7"  data-action = "clear">AC</button>
+                    <button class="button operators" value="+/-"  data-action = "negative-sign">+/-</button>
+                    <button class="button operators" value="%"  data-action = "percent">%</button>
+                    <button class="button operators" value="/" data-action = "divide">&#247</button>
+                    <button class="button" value ="7">7</button>
+                    <button class="button" value ="8">8</button>
+                    <button class="button" value ="9">9</button>
+                    <button class="button operators" value="*" data-action= "multiply">*</button>
+                    <button class="button" value ="4">4</button>
+                    <button class="button" value ="5">5</button>
+                    <button class="button" value ="6">6</button>
+                    <button class="button operators" value="-" data-action= "subtract">-</button>
+                    <button class="button" value ="1">1</button>
+                    <button class="button" value ="2">2</button>
+                    <button class="button" value ="3">3</button>
+                    <button class="button operators" value="+" data-action = "add">+</button>
+                    <button class="button" value ="0">0</button>
+                    <button class="button operators" value ="." data-action = "decimal">.</button>
+                    <button class="button equal operators" value = "=" data-action  ="calculator">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
