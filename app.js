@@ -5,6 +5,7 @@ let conDiv = document.querySelector(".button-container");
 
 let firstOperand;
 let secondOperand;
+// let thirdOperand
 let operator
 
 conDiv.addEventListener("click" , function (e){
@@ -31,9 +32,11 @@ conDiv.addEventListener("click" , function (e){
         else{
             
             if(action =="add"){
-                 operator = "+";
+              operator = "+";
                 firstOperand = display;
-                summary.textContent = firstOperand + operator;
+                
+               
+                summary.textContent = firstOperand + operator
                  result.textContent = ""
                 
             }
@@ -91,17 +94,19 @@ conDiv.addEventListener("click" , function (e){
                 summary.textContent = ""
                 result.textContent ="0"
             }
+
+          
            
             // secondOperand = result.textContent
             // summary.textContent = firstOperand + operator + secondOperand
             if(action =="calculator"){
                 
-            secondOperand = result.textContent
-                summary.textContent = firstOperand + operator + secondOperand
-    
+                secondOperand = result.textContent
+                summary.textContent = firstOperand + operator + secondOperand 
+               
                 
                 if(operator =="+"){
-                    result.textContent = Number(firstOperand) + Number(secondOperand)
+                    result.textContent = Number(firstOperand) + Number(secondOperand) 
                     
                 }
                 if(operator =="-"){
