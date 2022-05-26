@@ -34,8 +34,6 @@ conDiv.addEventListener("click" , function (e){
             if(action =="add"){
               operator = "+";
                 firstOperand = display;
-                
-               
                 summary.textContent = firstOperand + operator
                  result.textContent = ""
                 
